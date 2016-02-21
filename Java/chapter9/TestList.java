@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TestSet{
+public class TestList{
     public static void main(String[] args){
         String a = "A", b = "B", c = "C", d = "D", e = "E";
         int i=0;
