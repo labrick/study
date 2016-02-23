@@ -22,3 +22,23 @@
     subList(int fromIndex, int toIndex)
 
 ## Set集合
+
+    HashSet类，TestSet.java中重载了equals(Object obj)和hashCode()方法
+    TreeSet类，其中不能直接使用add方法，不知为什么，见TestSet.java例程
+        comparator()
+        first()
+        last()
+        headSet()
+        subSet()
+        tailSet()
+
+## Map集合
+
+    clear()
+    isEmpty()
+    size()
+    put(key k, value v)
+    containsValue(Object key)
+    get(Object key)
+    keySet()
+    values()
