@@ -39,6 +39,11 @@
     ThreadGroup group = new ThreadGroup("group")
     Thread thread = new Thread(group, "the first thread of group")
 
+### 线程同步
+
+    synchronized(Object){}同步块
+    synchronized void f(){}同步方法
+
 
 
     
