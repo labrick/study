@@ -1,0 +1,33 @@
+#include "reg_define.h"
+#define TIME 90
+
+int main (void)
+{
+	int i;
+	Config = 0x18;    		//配置波特率以及数据宽度
+	for(i=0;i<TIME;i++)
+	PARITYSELECT = 0x0;
+
+	DIN = 0xC4;         	// 黄的UTF8字符低8位
+	PARITYSELECT = 0x3;
+	for(i=0;i<TIME;i++)
+		PARITYSELECT = 0x0;
+
+	DIN = 0x9E;         	// 黄的UTF8字符高8位
+	PARITYSELECT = 0x3;
+	for(i=0;i<TIME;i++)
+		PARITYSELECT = 0x0;
+
+	DIN = 0x7F;         	// 灿的UTF8字符低8位
+	PARITYSELECT = 0x3;
+	for(i=0;i<TIME;i++)
+		PARITYSELECT = 0x0;
+
+	DIN = 0x70;         	// 灿的UTF8字符高8位
+	PARITYSELECT = 0x3;
+	for(i=0;i<TIME;i++)
+		PARITYSELECT = 0x0;
+
+	while(1);
+	return 0;
+}

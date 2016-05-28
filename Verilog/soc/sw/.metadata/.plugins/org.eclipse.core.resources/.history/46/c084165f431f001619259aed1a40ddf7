@@ -1,0 +1,35 @@
+#include "reg_define.h"
+#define TIME 90
+void main (void)
+{
+	int i;
+	uart_config = 0x08;    //配置波特率以及数据宽度
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+	uart_tx_buffer = 0x0f;         //名字夏的低位ASCII字符  夏
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+	uart_tx_buffer = 0x59;         //名字夏的高位ASCII字符
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+	uart_tx_buffer = 0x8f;            //名字咏的低位ASCII字符  咏
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+	uart_tx_buffer = 0x54;           //  //名字咏的高位ASCII字符
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		uart_tx_buffer = 0x0;
+	uart_tx_buffer = 0xd7;              //名字志的低位ASCII字符  志
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+	uart_tx_buffer = 0x5f;               //名字志的低位ASCII字符
+	parity_select = 0x3;
+	for(i=0;i<TIME;i++)
+		parity_select = 0x0;
+
+	while(1);
+}

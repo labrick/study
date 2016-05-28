@@ -1,0 +1,19 @@
+
+C:\Users\lxn\Desktop\soc_test\sw\first_run\Debug\start.o:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <_start>:
+   0:	e3a00000 	mov	r0, #0
+   4:	e13ff000 	teq	pc, r0
+   8:	e3e00000 	mvn	r0, #0
+   c:	ee030f10 	mcr	15, 0, r0, cr3, cr0, {0}
+  10:	e3a00001 	mov	r0, #1
+  14:	ee020f10 	mcr	15, 0, r0, cr2, cr0, {0}
+  18:	e59fd000 	ldr	sp, [pc]	; 20 <AdrStack>
+  1c:	ebfffffe 	bl	0 <main>
+			1c: R_ARM_CALL	main
+
+00000020 <AdrStack>:
+  20:	00004000 	.word	0x00004000

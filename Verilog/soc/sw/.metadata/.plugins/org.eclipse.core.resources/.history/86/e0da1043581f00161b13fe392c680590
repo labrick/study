@@ -1,0 +1,50 @@
+/*
+ * reg_define.h
+ *
+ * Created on: 2016-05-20
+ * Author: yanan
+ */
+
+#ifndef REG_DEFINE_H_
+#define REG_DEFINE_H_
+
+
+
+#define TIMER_LOAD_REG  (*(int *)0x00008000)
+#define TIMER_CUR_VALUE (*(int *)0x00008004)
+#define TIMER_CTL_REG   (*(int *)0x00008008)
+
+// uart_config
+typedef struct
+{
+	int bitWidth:4;		// 5~8
+	int BAUD:3;			// 0=9600; 1=115200; 2=34800; 3=4800
+	int PARITY:1;		// 0=odd; 1=oven
+	int STOP:2;
+	int RESERVE:22;
+}uart_config_t;
+
+typedef struct
+{
+	int RECEIVE:1;
+	int SEND:1;
+	int RESERVE:30;
+}parity_select_t;
+
+typedef struct
+{
+	int BUFFER:32;
+}uart_tx_buffer_t;
+
+typedef struct
+{
+	uart_config_t 		uart_config;
+	parity_select_t		parity_select;
+	uart_tx_buffer_t	uart_tx_buffer;
+}uart_control_t;
+
+
+#define uart_control	((uart_control_t *)0x0001a000)
+
+
+#endif /* REG_DEFINE_H_ */

@@ -1,0 +1,722 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/modeltech64_10.2c/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1463841119
+Voo6Ah3]8G@?j63zbd[z9_3
+04 2 4 work tb fast 0
+=1-0026c7458d66-5740715e-16a-171c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.2c;57
+va23_ahb
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+IoQ>bj?^Xc2S_d2I==ihYI2
+Z1 dC:/modeltech64_10.2c/examples/work
+w1460047201
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ahb.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_ahb.v
+L0 1
+Z2 OL;L;10.2c;57
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 jh5lc:2K<SKmC=X@om3]A1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ahb.v|
+!s108 1463836743.359000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ahb.v|
+!i10b 1
+!i111 0
+va23_alu
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+I^az]UX?i]iF@^]:]`g_eP3
+R1
+Z5 w1427627942
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_alu.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_alu.v
+L0 43
+R2
+R3
+!s85 0
+!s100 k2E=9ch8j8K0QJ>k5i2GO0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_alu.v|
+!s108 1463836743.631000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_alu.v|
+!i10b 1
+!i111 0
+va23_barrel_shift
+R4
+r1
+31
+Id<J;cdg^XnhC96]>LDS?l1
+R1
+w1463315265
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift.v
+Z6 Fa23_localparams.vh
+L0 42
+R2
+R3
+!s85 0
+!s100 6d6WC]1kT6?:;oIz<UY:I1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift.v|
+!s108 1463836743.904000
+!s107 a23_localparams.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift.v|
+!i10b 1
+!i111 0
+va23_barrel_shift_fpga
+IN]d`GGgDJeWLKFjoFUX920
+R4
+R1
+w1463315183
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift_fpga.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift_fpga.v
+R6
+L0 46
+R2
+r1
+31
+R3
+!s110 1463836744
+!s100 mm8GUz?R4T]VRPKI722QZ0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift_fpga.v|
+!s108 1463836744.190000
+!s107 a23_localparams.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_barrel_shift_fpga.v|
+!i10b 1
+!s85 0
+!i111 0
+va23_cache
+R4
+r1
+31
+I>`d`V8n`3iLngWSFa?VN?1
+R1
+w1458751659
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_cache.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_cache.v
+R6
+Z7 Fa23_functions.vh
+L0 48
+R2
+R3
+!s85 0
+!s100 6_<3]1Bc^:`9nF>DKmAKP0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_cache.v|
+!s108 1463836744.461000
+!s107 a23_functions.vh|a23_localparams.vh|a23_config_defines.vh|global_defines.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_cache.v|
+!i10b 1
+!i111 0
+va23_coprocessor
+R4
+r1
+31
+IFA^W060V6`>SXGf;5V7OS0
+R1
+w1298085115
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_coprocessor.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_coprocessor.v
+L0 41
+R2
+R3
+!s85 0
+!s100 BFR:P]keTW_aiBoghiRaR1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_coprocessor.v|
+!s108 1463836745.123000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_coprocessor.v|
+!i10b 1
+!i111 0
+va23_core
+R4
+r1
+31
+IY5W6?0R[a_9j1<H77b@C>2
+R1
+R5
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_core.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_core.v
+L0 43
+R2
+R3
+!s85 0
+!s100 X77D^hgEVa]?RUF4CYzLd1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_core.v|
+!s108 1463836745.388000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_core.v|
+!i10b 1
+!i111 0
+va23_decode
+R4
+r1
+31
+IPAPCM?F:6?1FbQRBlNZ1d1
+R1
+Z8 w1428779986
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decode.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_decode.v
+R6
+R7
+Fdebug_functions.vh
+L0 44
+R2
+R3
+!s85 0
+!s100 IEJI9S0j4]]Rmjdf^Jz3<1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decode.v|
+!s108 1463836745.661000
+!s107 debug_functions.vh|a23_functions.vh|a23_localparams.vh|global_defines.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decode.v|
+!i10b 1
+!i111 0
+va23_decompile
+R4
+r1
+31
+ISGABhje?6PRP1oST1JaHW2
+R1
+w1458751946
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decompile.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_decompile.v
+R6
+L0 47
+R2
+R3
+!s85 0
+!s100 o61mRRUB:C8FK5ingPCVF0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decompile.v|
+!s108 1463836746.270000
+!s107 a23_localparams.vh|a23_config_defines.vh|global_defines.vh|global_timescale.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_decompile.v|
+!i10b 1
+!i111 0
+va23_execute
+R4
+r1
+31
+IG1Z1_eDQ8R2SolcD=AMPg1
+R1
+R8
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_execute.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_execute.v
+R6
+R7
+L0 46
+R2
+R3
+!s85 0
+!s100 @TeJaXV5`C5oNVd2G=0Lc0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_execute.v|
+!s108 1463836746.609000
+!s107 a23_functions.vh|a23_localparams.vh|a23_config_defines.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_execute.v|
+!i10b 1
+!i111 0
+va23_fetch
+R4
+r1
+31
+IDA<oo_^XjmUCek`F[Rnzn2
+R1
+Z9 w1426462137
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_fetch.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_fetch.v
+Fmemory_configuration.vh
+L0 45
+R2
+R3
+!s85 0
+!s100 :mdOkKzlLlDhckof9R7>^2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_fetch.v|
+!s108 1463836747.065000
+!s107 memory_configuration.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_fetch.v|
+!i10b 1
+!i111 0
+va23_multiply
+R4
+r1
+31
+Ih4784V4nhj44PzLziBl2D1
+R1
+Z10 w1314741136
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_multiply.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_multiply.v
+L0 56
+R2
+R3
+!s85 0
+!s100 UGGH33dFi_F[`S8`i66LQ0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_multiply.v|
+!s108 1463836747.335000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_multiply.v|
+!i10b 1
+!i111 0
+va23_ram_register_bank
+I5R<QI7Ac6j4OeFo?=_G?h1
+R4
+R1
+R9
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ram_register_bank.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_ram_register_bank.v
+R6
+R7
+L0 44
+R2
+r1
+31
+R3
+!s100 J8K7FUIkio>hJC^koRWT`3
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ram_register_bank.v|
+!s110 1463836752
+!s108 1463836752.899000
+!s107 a23_functions.vh|a23_localparams.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_ram_register_bank.v|
+!i10b 1
+!s85 0
+!i111 0
+va23_register_bank
+R4
+r1
+31
+ISjlle<LgKVOT<S<:BR3ce3
+R1
+R9
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_register_bank.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_register_bank.v
+R6
+R7
+L0 44
+R2
+R3
+!s85 0
+!s100 j@a@`fOM5NRkNzZ`=]G111
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_register_bank.v|
+!s108 1463836753.186000
+!s107 a23_functions.vh|a23_localparams.vh|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_register_bank.v|
+!i10b 1
+!i111 0
+va23_wishbone
+R4
+r1
+31
+I6KeZb9Nz]N[h2GY_e?Y291
+R1
+R10
+8C:/modeltech64_10.2c/examples/work/hw/amber23/a23_wishbone.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/a23_wishbone.v
+L0 58
+R2
+R3
+!s85 0
+!s100 dcOF@ad9I05[CFfnO^TLU2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/a23_wishbone.v|
+!s108 1463836753.477000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/a23_wishbone.v|
+!i10b 1
+!i111 0
+vapb
+R4
+r1
+31
+IbY?]FNJRTOhUj6fg26KZ71
+R1
+w1460348983
+8C:/modeltech64_10.2c/examples/work/hw/apb.vp
+FC:/modeltech64_10.2c/examples/work/hw/apb.vp
+L0 137
+R2
+Z11 !s108 1463836741.549000
+Z12 !s107 C:/modeltech64_10.2c/examples/work/hw/apb.vp|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/apb.vp|
+R3
+!s85 0
+!s100 MX?aUJ3i[LYJbH2T94Q1`3
+!i10b 1
+!i111 0
+vboot_mem32
+IR>R1ZTLRXf=6S[V?OnJ5B2
+R4
+R1
+w1458892341
+8C:/modeltech64_10.2c/examples/work/hw/amber23/boot_mem32.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/boot_mem32.v
+L0 45
+R2
+r1
+31
+R3
+!s110 1463836753
+!s100 6=cc8WaK=T@ghhKK`1^=i0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/boot_mem32.v|
+!s108 1463836753.748000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/boot_mem32.v|
+!i10b 1
+!s85 0
+!i111 0
+vUD7FOIlN9VoNeaaN/V3o2Q==
+R4
+r1
+31
+I87Gj=Nj_giDC?Be2NdG=>0
+d.
+Z14 Fnofile
+Z15 L0 255
+R2
+R11
+R12
+R13
+R3
+ncab1fb6
+!i10b 0
+!s85 0
+!s100 O5FCkbV=_`?IEKE<DTTKg1
+!i8a 759229200
+!i111 0
+vZMUspApF9+hM4w77rIRwqQ==
+R4
+r1
+31
+IBjZ]TeU_b>aAO;e_YlYCY1
+d.
+R14
+R15
+R2
+R11
+R12
+R13
+R3
+n64c7c32
+!i10b 0
+!s85 0
+!s100 aD4]6ZQS>;@jQchKS5<Sg1
+!i8a 759229200
+!i111 0
+vgsT/xSt0tPfWYmQVXjGWLg==
+R4
+r1
+31
+IoIelzH@cMWg@j_PFWJoZ]2
+d.
+R14
+R15
+R2
+R11
+R12
+R13
+R3
+nc7924e2
+!i10b 0
+!s85 0
+!s100 SQ[EQIieZVZhgC<B94h4G1
+!i8a 759229200
+!i111 0
+vN2lOO8A+nOhm96qkbElADw==
+R4
+r1
+31
+I>O3oUU8G8zd1KS;hJbQ^K0
+d.
+R14
+R15
+R2
+R11
+R12
+R13
+R3
+nfad3288
+!i10b 0
+!s85 0
+!s100 cF6PdiD3aCMTfZ>01a40a1
+!i8a 759229200
+!i111 0
+vY8SLC4uaTqK6sgVne8Z0NA==
+R4
+r1
+31
+I5ij9[Lo[S^]jVY3YLU@1N0
+d.
+R14
+R15
+R2
+R11
+R12
+R13
+R3
+n64fac3c
+!i10b 0
+!s85 0
+!s100 4D3_:Ff0:YZIZE`YcKH1V3
+!i8a 759229200
+!i111 0
+vua1zFjg7GZfk6Hw47dwSqw==
+R4
+r1
+31
+IIgaGA:enXXGJz1HFRh]2e3
+d.
+R14
+R15
+R2
+R11
+R12
+R13
+R3
+n64f5722
+!i10b 0
+!s85 0
+!s100 ilFD?YNVZMAXZa1Io9JA@3
+!i8a 759229200
+!i111 0
+vesram_apb
+R4
+r1
+31
+IR3]=9JO^?ac6=:CM<`dX?1
+R1
+w1460042205
+8C:/modeltech64_10.2c/examples/work/hw/esram/esram_apb.v
+FC:/modeltech64_10.2c/examples/work/hw/esram/esram_apb.v
+L0 2
+R2
+R3
+!s85 0
+!s100 >cHz7bSUZ0^3ziH?@hgcB2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/esram/esram_apb.v|
+!s108 1463836740.719000
+!s107 C:/modeltech64_10.2c/examples/work/hw/esram/esram_apb.v|
+!i10b 1
+!i111 0
+vfsm
+R4
+r1
+31
+I`h[VjXB>M2b0D7M:@d;m?1
+R1
+w1463552016
+8C:/modeltech64_10.2c/examples/work/hw/uart/fsm.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/fsm.v
+L0 1
+R2
+R3
+!s85 0
+!s100 `iB5_LRL_^T>?N@hP9XH:0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/fsm.v|
+!s108 1463836738.802000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/fsm.v|
+!i10b 1
+!i111 0
+vgeneric_sram_byte_en
+R4
+r1
+31
+I2V[McKM[6BBBTBfgc?FF]1
+R1
+w1458862883
+8C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_byte_en.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_byte_en.v
+L0 43
+R2
+R3
+!s85 0
+!s100 >fi2S79Mc2mlJaVk=[i;Z0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_byte_en.v|
+!s108 1463836754.007000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_byte_en.v|
+!i10b 1
+!i111 0
+vgeneric_sram_line_en
+R4
+r1
+31
+I7YC<CbbamJhnkF6SC]Z]g2
+R1
+w1295456666
+8C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_line_en.v
+FC:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_line_en.v
+L0 42
+R2
+R3
+!s85 0
+!s100 KA=0DcXBND5AWRC@H0m<V2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_line_en.v|
+!i10b 1
+!s108 1463836754.281000
+!s107 C:/modeltech64_10.2c/examples/work/hw/amber23/generic_sram_line_en.v|
+!i111 0
+vmod10
+R4
+r1
+31
+Izle96ZAYe<kAIZ_n`?fYa1
+R1
+w1463822009
+8C:/modeltech64_10.2c/examples/work/hw/uart/mod10.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/mod10.v
+L0 1
+R2
+R3
+!s85 0
+!s100 ZC3biHhnBYflSNk=]dN4@2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/mod10.v|
+!s108 1463836739.070000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/mod10.v|
+!i10b 1
+!i111 0
+vparity_gen
+R4
+r1
+31
+IiJ4:NKgifo2EMah6QC]J00
+R1
+w1463673036
+8C:/modeltech64_10.2c/examples/work/hw/uart/parity.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/parity.v
+L0 1
+R2
+R3
+!s85 0
+!s100 Y1nNKGCHOGUYn?<aC:b8g2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/parity.v|
+!s108 1463836739.331000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/parity.v|
+!i10b 1
+!i111 0
+vRA1SH32K
+R4
+r1
+31
+Im2YToHI^4Qm_D<S7@Jao[2
+R1
+w1213328668
+8C:/modeltech64_10.2c/examples/work/hw/esram/RA1SH32K.v
+FC:/modeltech64_10.2c/examples/work/hw/esram/RA1SH32K.v
+L0 55
+R2
+R3
+n@r@a1@s@h32@k
+!s85 0
+!s100 GL;zf5ZYoeU9b@Vlb=3Ic0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/esram/RA1SH32K.v|
+!s108 1463836740.985000
+!s107 C:/modeltech64_10.2c/examples/work/hw/esram/RA1SH32K.v|
+!i10b 1
+!i111 0
+vShiftReg
+R4
+r1
+31
+IR:T;F]AR_6fMRChCf^SLV1
+R1
+w1463670994
+8C:/modeltech64_10.2c/examples/work/hw/uart/shifter.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/shifter.v
+L0 1
+R2
+R3
+n@shift@reg
+!s85 0
+!s100 DM:A`=QSeF>K[ZYQKR8WU3
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/shifter.v|
+!s108 1463836739.606000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/shifter.v|
+!i10b 1
+!i111 0
+vtb
+R4
+r1
+31
+I=3TgWc[mAR_9o1H[2UL0A3
+R1
+w1463822289
+8C:/modeltech64_10.2c/examples/work/test_amber.v
+FC:/modeltech64_10.2c/examples/work/test_amber.v
+L0 2
+R2
+R3
+!s85 0
+!s100 4V]Ye>5M51`k;UVh5EfY;3
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/test_amber.v|
+!s108 1463836740.432000
+!s107 C:/modeltech64_10.2c/examples/work/test_amber.v|
+!i10b 1
+!i111 0
+vtimer
+R4
+r1
+31
+IhczGZ7YdPU8fYRHe[ajQe2
+R1
+w1463819793
+8C:/modeltech64_10.2c/examples/work/hw/uart/timer.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/timer.v
+L0 2
+R2
+R3
+!s85 0
+!s100 ]jN`=S@Vj@az33i2zV0?b2
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/timer.v|
+!s108 1463836739.879000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/timer.v|
+!i10b 1
+!i111 0
+vtimer_apb
+R4
+r1
+31
+IUNI@JQjG`G<6UE[SccMma3
+R1
+w1463386123
+8C:/modeltech64_10.2c/examples/work/hw/timer/timer_apb.v
+FC:/modeltech64_10.2c/examples/work/hw/timer/timer_apb.v
+L0 1
+R2
+R3
+!s85 0
+!s100 @nQkB??[Ho7IJ=QjMa[YH1
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/timer/timer_apb.v|
+!s108 1463836741.285000
+!s107 C:/modeltech64_10.2c/examples/work/hw/timer/timer_apb.v|
+!i10b 1
+!i111 0
+vtop
+R4
+r1
+31
+I[jh2C?A1fV4f;Fako;RQm2
+R1
+w1463403900
+8C:/modeltech64_10.2c/examples/work/hw/top.v
+FC:/modeltech64_10.2c/examples/work/hw/top.v
+L0 1
+R2
+R3
+!s85 0
+!s100 :XlO1]^AAeN?D?P^OU3[`0
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/top.v|
+!s108 1463836743.092000
+!s107 C:/modeltech64_10.2c/examples/work/hw/top.v|
+!i10b 1
+!i111 0
+vuart_tx
+R4
+r1
+31
+IXLZ8h=zdjZoEClKkJ8S=H3
+R1
+w1463836583
+8C:/modeltech64_10.2c/examples/work/hw/uart/uart_tx.v
+FC:/modeltech64_10.2c/examples/work/hw/uart/uart_tx.v
+L0 1
+R2
+R3
+!s85 0
+!s100 PWfz:Hib1Eled<^9kigK32
+!s90 -reportprogress|300|-work|work|-vopt|C:/modeltech64_10.2c/examples/work/hw/uart/uart_tx.v|
+!s108 1463836740.168000
+!s107 C:/modeltech64_10.2c/examples/work/hw/uart/uart_tx.v|
+!i10b 1
+!i111 0

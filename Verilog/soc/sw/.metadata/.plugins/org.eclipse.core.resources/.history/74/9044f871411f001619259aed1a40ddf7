@@ -1,0 +1,43 @@
+#include "reg_define.h"
+#define	TIME	90
+
+#define B9600	0
+#define B115200	1
+#define B34800	2
+#define B4800	3
+
+
+void main (void)
+{
+	int i;
+
+	// uart_init();
+	uart_config = 0x08;   	 				//配置波特率以及数据宽度
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x6C);				// 马的UTF8字符低8位
+	uart_tx_buffer = 0x6C;
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x9A);				// 马的UTF8字符高8位
+	uart_tx_buffer = 0x9A;
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x9A);				// 亚的UTF8字符低8位
+	uart_tx_buffer = 0x9A;
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x4E);				// 亚的UTF8字符高8位
+	uart_tx_buffer = 0x4E;
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x57);				// 南的UTF8字符低8位
+	uart_tx_buffer = 0x57;
+	for(i=0;i<TIME;i++);
+
+	// uart_send_byte(0x53);				// 南的UTF8字符高8位
+	uart_tx_buffer = 0x53;
+	for(i=0;i<TIME;i++);
+
+	while(1);
+}

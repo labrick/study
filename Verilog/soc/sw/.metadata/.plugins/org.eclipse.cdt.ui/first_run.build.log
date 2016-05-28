@@ -1,0 +1,20 @@
+22:50:07 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+
+22:50:09 Build Finished (took 2s.310ms)
+

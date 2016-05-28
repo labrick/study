@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/CPATH/delimiter=;
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/append=true
+environment/buildEnvironmentInclude/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/appendContributed=true
+environment/buildEnvironmentLibrary/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/append=true
+environment/buildEnvironmentLibrary/com.codesourcery.arm_none_eabi.cdt.managedbuild.toolchain.gnu.exe.debug.105587690/appendContributed=true

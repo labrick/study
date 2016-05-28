@@ -1,0 +1,20 @@
+/*
+ * reg_define.h
+ *
+ * Created on: 2016-05-19
+ * Author: HC
+ */
+
+#ifndef REG_DEFINE_H_
+#define REG_DEFINE_H_
+
+#define TIMER_LOAD_REG  0x00008000
+#define TIMER_CUR_VALUE 0x00008004
+#define TIMER_CTL_REG   0x00008008
+
+#define PARITYSELECT 	(*(int *)0x0001a000)
+#define DIN 			(*(int *)0x0001a004)
+#define Config 			(*(int *)0x0001a008)
+
+
+#endif /* REG_DEFINE_H_ */

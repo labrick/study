@@ -1,0 +1,1573 @@
+16:08:25 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\Users\lxn\Desktop\soc_test\sw" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:4:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void) 
+      ^
+../first_run.c: In function 'main':
+../first_run.c:16:7: warning: assignment makes pointer from integer without a cast [enabled by default]
+     a = 0x1000;
+       ^
+../first_run.c:6:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\Users\lxn\Desktop\soc_test\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+d:/sourcery_codebench_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+17:53:26 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/first_run.o" "C:/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/start.o"  first_run first_run
+找不到 C:\Users\Maybe\Desktop\SOC\xyz\soc_test\sw\first_run\Debug\/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/first_run.o
+18:42:39 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/first_run.o" "C:/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/start.o"  first_run first_run
+找不到 C:\Users\Maybe\Desktop\SOC\xyz\soc_test\sw\first_run\Debug\/Users/Maybe/Desktop/SOC/xyz/soc_test/sw/first_run/Debug/first_run.o
+找不到 C:\modeltech64_10.2c\examples\work\sw\first_run\Debug\first_run
+18:42:52 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:45:10 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+18:45:23 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int main (void)
+ ^
+cs-make: *** [first_run.o] Error 1
+18:46:10 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+找不到 C:\modeltech64_10.2c\examples\work\sw\first_run\Debug\/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o
+18:46:26 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:47:01 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+18:47:20 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:47:47 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:48:34 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+18:48:50 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:52:25 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:57:32 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+18:59:50 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+19:01:33 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:03:26 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+19:03:47 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+19:04:51 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:07:17 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:09:55 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int main (void)
+ ^
+cs-make: *** [first_run.o] Error 1
+19:10:54 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int main (void)
+ ^
+cs-make: *** [first_run.o] Error 1
+19:11:41 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:12:26 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_config = 0x08;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:13:14 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_config = 0x08;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:17:12 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+找不到 C:\modeltech64_10.2c\examples\work\sw\first_run\Debug\/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o
+19:17:48 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:18:19 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_config = 0x08;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:19:58 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: lvalue required as left operand of assignment
+  uart_config = 0x08;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:21:45 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_config = 0x08;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:26:55 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:2: error: conversion to non-scalar type requested
+  uart_config = (uart_config_t)0x0008;         //配置波特率以及数据宽度
+  ^
+cs-make: *** [first_run.o] Error 1
+19:27:49 **** Clean-only build of configuration Debug for project first_run ****
+cs-make clean 
+del  ./first_run.d  first_run.vh  first_run 
+参数格式不正确 - "first_run.d"。
+cs-make: [clean] Error 1 (ignored)
+del "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o" "C:/modeltech64_10.2c/examples/work/sw/first_run/Debug/start.o"  first_run first_run
+找不到 C:\modeltech64_10.2c\examples\work\sw\first_run\Debug\/modeltech64_10.2c/examples/work/sw/first_run/Debug/first_run.o
+19:29:23 **** Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:13: error: invalid type argument of '->' (have 'uart_config_t {aka struct <anonymous>}')
+  uart_config->BAUD = 1;  // = (uart_config_t)0x0008;         //配置波特率以及数据宽度
+             ^
+cs-make: *** [first_run.o] Error 1
+19:30:59 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:31:54 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+19:32:34 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:37:29 **** Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+19:40:31 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:43:49 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:44:34 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:46:19 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:47:30 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:48:32 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:49:04 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:49:36 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:50:41 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:15:14: error: lvalue required as left operand of assignment
+  uart_config = 0x0008;         //配置波特率以及数据宽度
+              ^
+cs-make: *** [first_run.o] Error 1
+19:50:55 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:52:34 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:53:03 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:54:48 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:55:55 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:58:12 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:58:52 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+19:59:54 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:01:15 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:02:53 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:18:45 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:36:26 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:37:33 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:40:59 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:9:28: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_config = 0x08;         //配置波特率以及数据宽度
+                            ^
+cs-make: *** [first_run.o] Error 1
+20:42:35 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:9:28: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_config = 0x08;         //配置波特率以及数据宽度
+                            ^
+../first_run.c:11:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:14:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x6C;
+                               ^
+../first_run.c:15:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:17:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:21:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:22:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:24:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:27:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:28:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:30:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:33:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x4E;
+                               ^
+../first_run.c:34:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:36:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:39:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x57;
+                               ^
+../first_run.c:40:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:42:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:45:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x53;
+                               ^
+../first_run.c:46:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:48:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+cs-make: *** [first_run.o] Error 1
+20:43:03 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:9:28: error: incompatible types when assigning to type 'uart_config_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_config = 0x08;         //配置波特率以及数据宽度
+                            ^
+../first_run.c:11:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:14:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x6C;
+                               ^
+../first_run.c:15:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:17:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:21:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:22:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:24:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:27:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:28:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:30:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:33:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x4E;
+                               ^
+../first_run.c:34:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:36:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:39:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x57;
+                               ^
+../first_run.c:40:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:42:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:45:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x53;
+                               ^
+../first_run.c:46:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:48:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+cs-make: *** [first_run.o] Error 1
+20:44:17 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:9:2: error: conversion to non-scalar type requested
+  uart_control->uart_config = (uart_config_t)0x08;         //配置波特率以及数据宽度
+  ^
+../first_run.c:11:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:14:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x6C;
+                               ^
+../first_run.c:15:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:17:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:21:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:22:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:24:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:27:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:28:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:30:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:33:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x4E;
+                               ^
+../first_run.c:34:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:36:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:39:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x57;
+                               ^
+../first_run.c:40:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:42:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:45:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x53;
+                               ^
+../first_run.c:46:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:48:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+cs-make: *** [first_run.o] Error 1
+20:45:37 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:9:14: error: request for member 'uart_config' in something not a structure or union
+  uart_control->uart_config = (uart_config_t)0x08;         //配置波特率以及数据宽度
+              ^
+../first_run.c:9:2: error: conversion to non-scalar type requested
+  uart_control->uart_config = (uart_config_t)0x08;         //配置波特率以及数据宽度
+  ^
+../first_run.c:11:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:14:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x6C;
+              ^
+../first_run.c:15:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:17:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:21:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x9A;
+              ^
+../first_run.c:22:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:24:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:27:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x9A;
+              ^
+../first_run.c:28:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:30:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:33:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x4E;
+              ^
+../first_run.c:34:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:36:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:39:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x57;
+              ^
+../first_run.c:40:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:42:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+../first_run.c:45:14: error: request for member 'uart_tx_buffer' in something not a structure or union
+  uart_control->uart_tx_buffer = 0x53;
+              ^
+../first_run.c:46:14: error: request for member 'parity_select' in something not a structure or union
+  uart_control->parity_select = 0x03;
+              ^
+../first_run.c:48:15: error: request for member 'parity_select' in something not a structure or union
+   uart_control->parity_select = 0x0;
+               ^
+cs-make: *** [first_run.o] Error 1
+20:49:52 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:12:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:15:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x6C;
+                               ^
+../first_run.c:16:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:18:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:22:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:23:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:25:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:28:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x9A;
+                               ^
+../first_run.c:29:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:31:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:34:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x4E;
+                               ^
+../first_run.c:35:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:37:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:40:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x57;
+                               ^
+../first_run.c:41:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:43:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+../first_run.c:46:31: error: incompatible types when assigning to type 'uart_tx_buffer_t {aka struct <anonymous>}' from type 'int'
+  uart_control->uart_tx_buffer = 0x53;
+                               ^
+../first_run.c:47:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+../first_run.c:49:31: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+   uart_control->parity_select = 0x0;
+                               ^
+cs-make: *** [first_run.o] Error 1
+20:52:56 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c: In function 'main':
+../first_run.c:60:30: error: incompatible types when assigning to type 'parity_select_t {aka struct <anonymous>}' from type 'int'
+  uart_control->parity_select = 0x03;
+                              ^
+cs-make: *** [first_run.o] Error 1
+20:53:12 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:53:59 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:55:28 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:59:21 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+20:59:28 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:01:30 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:03:11 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:04:23 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:07:01 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:07:34 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:08:44 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:09:21 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:11:03 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:12:50 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:23:54 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:24:58 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:26:01 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:27:32 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+21:35:00 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+22:28:50 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+../first_run.c:4:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+22:29:22 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+22:37:19 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+22:44:17 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+22:45:48 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+22:48:40 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '
+22:50:07 **** Incremental Build of configuration Debug for project first_run ****
+cs-make all 
+'Building file: ../first_run.c'
+'Invoking: Sourcery CodeBench C Compiler'
+arm-none-eabi-gcc -I"C:\modeltech64_10.2c\examples\work\sw" -I"C:\modeltech64_10.2c\examples\work\sw\first_run" -O0 -g -Wall -c -fmessage-length=0 -march=armv2a -mno-thumb-interwork -fno-common -MMD -MP -MF"first_run.d" -MT"first_run.d" -o "first_run.o" "../first_run.c"
+'Finished building: ../first_run.c'
+' '
+'Building target: first_run'
+'Invoking: Sourcery CodeBench C Linker'
+arm-none-eabi-gcc -T C:\modeltech64_10.2c\examples\work\sw\first_run\sections.lds -Xlinker --fix-v4bx -Xlinker -Map="first_run.map" -o "first_run" "@objs.rsp" "@user_objs.rsp" "@libs.rsp"
+c:/mgc/embedded/codebench/bin/../lib/gcc/arm-none-eabi/5.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000
+'Finished building target: first_run'
+' '
+'Invoking: Sourcery CodeBench Objcopy'
+arm-none-eabi-objcopy -O verilog first_run "first_run.vh"
+'Finished building: first_run.vh'
+' '

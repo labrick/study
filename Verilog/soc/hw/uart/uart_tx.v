@@ -1,0 +1,57 @@
+module uart_tx #(parameter DSIZE = 8) (paddr, pclk, penable,  prdata, presetn, psel, pwdata, pwrite);
+input   [31:0]  paddr; 
+input pclk, presetn;
+input           penable;  
+input           psel;
+input   [31:0]  pwdata;
+input           pwrite;
+output reg [31:0]  prdata;
+
+reg send, parityselect;
+reg [DSIZE - 1:0] din;
+reg [3:0] bitWidth;
+reg [2:0] baud;
+
+//wire busy;
+wire dout;
+wire load, busy, resetcounter, resettimer, shift, increment;
+//==========================================================
+//                  APB PWDATA
+//==========================================================
+always @(posedge pclk or negedge presetn) begin
+	if(!presetn) begin
+		send <= 1'b0;
+		parityselect <= 1'b0;
+	end
+	else begin
+		if(psel && pwrite && penable) begin
+		  case(paddr[7:2])
+			6'b000000:  // config_reg
+			begin
+			   bitWidth <= pwdata[3:0];
+			   baud <= pwdata[6:4];
+			   parityselect <= pwdata[7]; 
+			end
+			6'b000001: // trans_control_reg
+			begin
+		    send <= pwdata[1];	
+			end	
+			6'b000010:   // tx_buffer_reg
+			begin
+        din <= pwdata[7:0];
+			end
+		  endcase
+		end
+	end
+end 
+mod10 u_mod10(bitWidth,pclk, resetcounter, increment, count10);
+
+parity_gen #(.DSIZE(8)) u_parity(bitWidth,din, parityselect, parity);
+
+ShiftReg #(.DSIZE(8)) u_shifter(bitWidth,pclk, !presetn, din, parity, load, shift, dout);
+
+timer u_timer(baud,nextbit, resettimer, pclk);
+
+fsm u_fsm(pclk, !presetn, send, nextbit, count10, load, busy, resetcounter, resettimer, shift, increment);
+
+endmodule
