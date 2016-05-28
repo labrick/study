@@ -15,7 +15,8 @@
  */
 
 #define LOG_TAG "audio_hw_primary"
-#define LOG_NDEBUG 0        // 这里打开了
+#define LOG_NDEBUG 0        // 不打开DEBUG的选项，决定着ALOGV是否打印
+                            // 注意这里打印是打印到logcat中
 
 #include <errno.h>
 #include <pthread.h>
@@ -23,7 +24,7 @@
 #include <sys/time.h>
 #include <stdlib.h>
 
-#include <cutils/log.h>
+#include <cutils/log.h>     // LOG_NDEBUG选项的根源在这里
 #include <cutils/str_parms.h>
 #include <cutils/properties.h>
 
@@ -52,10 +53,11 @@ int call_flag = 0;
 #define CARD_A1X_CODEC		0
 #define CARD_A1X_HDMI		1
 #define CARD_A1X_SPDIF		2
-#define CARD_A1X_DEFAULT	CARD_A1X_HDMI
+#define CARD_A1X_DEFAULT	CARD_A1X_HDMI   // 这里选择声卡设备
+                            // 值得注意的是如果SOC不存在后两者，可能都会连接到I2S
 
 /* ALSA ports for A1X */
-#define PORT_CODEC			0
+#define PORT_CODEC			0               // 这个端口是干什么的？
 #define PORT_HDMI			0
 #define PORT_SPDIF			0
 #define PORT_MODEM			0
