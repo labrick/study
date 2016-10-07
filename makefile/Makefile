@@ -1,15 +1,38 @@
 
-OBJS = hello.o sum.o	# 定义一个目标变量，相当于一个宏
+debug = debug
+CC = g++
+DOBJS = hello.do sum.do# 定义一个目标变量，相当于一个宏
+ROBJS = hello.ro sum.ro# 定义一个目标变量，相当于一个宏
 
-target: $(OBJS)
-	cc -o target $(OBJS)	# 目标文件target的合成
+ifeq ($(debug), debug)
+OFLAG = -c -g -Ddebug
+all: target_debug
+else
+OFLAG = -c -o3
+all: target_release
+endif
 
-$(filter %.o,$(OBJS)): %.o: %.c		# 集合：目标集合($@)：依赖集合($<)，filter作过滤
-	$(CC) -c $< -o $@	# 依赖比较多时，效率较高
+target_debug: $(DOBJS)
+	$(CC) $(DOBJS) -o $@	# 目标文件target的合成
+
+target_release: $(ROBJS)
+	$(CC) $(ROBJS) -o $@	# 目标文件target的合成
+
+#%.do: %.c
+.SUFFIXES : .do .c
+.c.do:
+	$(CC) $(OFLAG) $< -o $@	# 依赖比较多时，效率较高
+#%.ro: %.c
+.SUFFIXES : .ro .c
+.c.ro:
+	$(CC) $(OFLAG) $< -o $@	# 依赖比较多时，效率较高
+
+#$(filter %.o,$(OBJS)): %.o: %.c		# 集合：目标集合($@)：依赖集合($<)，filter作过滤
+#	$(CC) -c $< -o $@	# 依赖比较多时，效率较高
 
 .PHONY: clean			# 特意指明clean是一个伪目标，只能显示执行
 clean:
-	rm -f target tmp_make $(OBJS) 	# -f表示如果要删除的目标不存在，则忽略
+	rm -f target_* tmp_make $(DOBJS) $(ROBJS) *.o	# -f表示如果要删除的目标不存在，则忽略
 
 dep:
 	sed '/\#\#\# Dependencies/q' < Makefile > tmp_make		# q是退出的意思，这个sed意思是符合单引号中内容则退出，否则就复制
