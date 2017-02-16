@@ -14,10 +14,10 @@ quota_init() {
     
         if [ "$miduser_flag" -eq 1 ]; then
             echo $user is a miduser, no deal with it
-            setquota $user 420000000 500000000 0 0 /mnt/hdd2
+            sudo setquota $user 420000000 500000000 0 0 /mnt/hdd2
         else
             echo $user is a general user, deal with it
-            setquota $user 110000000 150000000 0 0 /mnt/hdd2
+            sudo setquota $user 110000000 150000000 0 0 /mnt/hdd2
         fi
     done
 }
@@ -33,7 +33,7 @@ EOF
 }
 
 quota_info() {
-    repquota /mnt/hdd2
+    sudo repquota /mnt/hdd2
 }
 
 while getopts di option; do
