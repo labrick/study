@@ -11,13 +11,24 @@ quota_init() {
                 miduser_flag=1
             fi
         done
+
+        supuser_flag=0
+        for supuser in $(cat "/mnt/hdd2/yanan/.supuserdb")
+        do
+            if [ $user = $supuser ]; then
+                supuser_flag=1
+            fi
+        done
     
-        if [ "$miduser_flag" -eq 1 ]; then
+        if [ "$supuser_flag" -eq 1 ]; then
+            echo $user is a super user, deal with it
+            sudo setquota $user 500000000 520000000 0 0 /mnt/hdd2
+        elif [ "$miduser_flag" -eq 1 ]; then
             echo $user is a miduser, no deal with it
-            sudo setquota $user 420000000 500000000 0 0 /mnt/hdd2
+            sudo setquota $user 300000000 320000000 0 0 /mnt/hdd2
         else
             echo $user is a general user, deal with it
-            sudo setquota $user 110000000 150000000 0 0 /mnt/hdd2
+            sudo setquota $user 100000000 120000000 0 0 /mnt/hdd2
         fi
     done
 }
