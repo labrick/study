@@ -72,10 +72,13 @@ int main()
     vector<int> nums, results;
     int target = 6;
 
-    nums.resize(4);
-    copy(&numsInit[0], &numsInit[4], nums.begin());
-    // transform(&numsInit[0], &numsInit[3], nums.begin(), 
-            // [](int u){return u;});
+    nums.insert(nums.begin(), &numsInit[0], &numsInit[4]);
+    // nums.resize(4);
+    // copy(&numsInit[0], &numsInit[4], nums.begin());
+    
+    // transform 不是不需要resize吗
+    // transform(&numsInit[0], &numsInit[4], nums.begin(), 
+    //         [](int u){return u;});
 
     for(int a : nums){
         cout << a << "\t";
